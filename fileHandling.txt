@@ -1,0 +1,53 @@
+* InputStreams abstract class
+subclasses:
+AudioInputStream
+ByteArrayInputStream
+FileInputStream extends InputStream
+FilterInputStream
+StringBufferInputStream
+ObjectInputStream
+
+methods of inputStream
+read()
+read(byte[] array)
+mark()
+available()
+markSupported()
+reset()
+skips()
+close()
+
+* OutputStream abstract class 
+subclasses:
+ByteArrayOutputStream
+FileOutputStream extends OutputStream
+StringBufferOutputStream
+ObjectOutputStream
+DataOutputStream
+PrintStream
+
+methods of OutputStream
+write()
+write(Byte[] array)
+close()
+flush()
+
+Two Types of Stream
+Byte Stream
+    byte input stream
+    byte output stream
+Character Stream
+    character input stream
+    character output stream
+
+java file class methods
+canRead()
+canWrite()
+createNewFile()
+delete()
+exists()
+length()
+getName()
+list()
+mkdir()
+getAbsolutePath()

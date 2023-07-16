@@ -1,0 +1,22 @@
+byte, short, int, long, float, double, boolean and char are called:
+
+Primitive
+byte        1 byte      8 bits      -128 to 127
+short       2 bytes     16 bits     -32768 to 32767
+int         4 bytes     32 bits     -2147483648 to 2147483647
+long        8 bytes     64 bits     -9223372036854775808 to 9223372036854775807
+BigInteger
+
+float       4 bytes     32 bits     3.40282347 * 10^38 , 1.40239846 * 10^-45    (6-7 significant decimal digits)
+double      8 bytes     64 bits     1.7976931348623157 * 10^308 , 4.9406564584124654 * 10^-324  (15 significant digits)
+BigDecimal
+
+boolean     1 bit       not defined
+
+char        2 bytes     16-bit Unicode      0 to 65536 (unsigned)
+
+Non-Primitive
+Strings
+Arrays
+Classes
+Interface
